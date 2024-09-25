@@ -1,0 +1,3 @@
+Clock Icon: https://www.svgrepo.com/svg/532098/clock
+Bomb Icon:  https://www.svgrepo.com/svg/473028/bomb
+Flag Icon:  https://www.svgrepo.com/svg/506494/flag-fill

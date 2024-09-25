@@ -621,18 +621,12 @@ int main(void)
     open_cell_sound = LoadSound(OPEN_CELL_SOUND_FILEPATH);
 
     flag_icon_image   = LoadImage(FLAG_ICON_FILEPATH);
-    /* FIX THIS */
-    ImageColorBrightness(&flag_icon_image, 255);
     flag_icon_texture = LoadTextureFromImage(flag_icon_image);
 
     clock_icon_image   = LoadImage(CLOCK_ICON_FILEPATH);
-    /* FIX THIS */
-    ImageColorBrightness(&clock_icon_image, 255);
     clock_icon_texture = LoadTextureFromImage(clock_icon_image);
 
     bomb_icon_image   = LoadImage(BOMB_ICON_FILEPATH);
-    /* FIX THIS */
-    ImageColorBrightness(&bomb_icon_image, 255);
     bomb_icon_texture = LoadTextureFromImage(bomb_icon_image);
 
     bool exit_window = false;
