@@ -1,5 +1,10 @@
 # Minesweeper
-It is simple minesweeper game made in c with RayLib
+
+Minesweeper game made in C with raylib.
+
+<p align=center>
+  <img src="./assets/screen.png">
+</p>
 
 ## Quick Start
 ```bash
@@ -8,3 +13,6 @@ $ cd minesweeper
 $ ./build.sh
 $ ./build/minesweeper
 ```
+
+## Dependencies
+* [raylib](https://www.raylib.com/)
