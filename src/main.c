@@ -184,7 +184,7 @@ void render_menu(int screen_width, int screen_height)
 }
 
 
-void init_field()
+void init_field(void)
 {
     /* Reset field */
     for (int i = 0; i < MAX_FIELD_ROWS*MAX_FIELD_COLUMNS; i++) {
@@ -232,7 +232,7 @@ void init_field()
 }
 
 
-int flags()
+int flags(void)
 {
     int flags = 0;
     for (int i = 0; i < field_rows*field_columns; i++) {
@@ -242,7 +242,7 @@ int flags()
 }
 
 
-void open_empty_cells()
+void open_empty_cells(void)
 {
     bool run = true;
     while (run) {
@@ -273,7 +273,7 @@ void open_empty_cells()
 }
 
 
-bool check_win()
+bool check_win(void)
 {
     int cells = field_columns*field_rows;;
     for (int i = 0; i < cells; i++) {
@@ -339,7 +339,7 @@ void render_difficulty_menu(int screen_width, int screen_height)
     }
 }
 
-void process_lose()
+void process_lose(void)
 {
     for (int i = 0; i < field_columns*field_rows; i++) {
         if (field[i] == -1) state_field[i] = OPEN;
@@ -601,10 +601,10 @@ void render_end_game_screen(int screen_width, int screen_height)
             current_state = QUIT;
         }
     }
-};
+}
 
 
-int main()
+int main(void)
 {
     SetTraceLogLevel(LOG_WARNING);
     SetConfigFlags(FLAG_MSAA_4X_HINT | FLAG_VSYNC_HINT);
