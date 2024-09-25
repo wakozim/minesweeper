@@ -611,7 +611,6 @@ int main()
     InitWindow(DEFAULT_SCREEN_WIDTH, DEFAULT_SCREEN_HEIGHT, "Minesweeper");
     InitAudioDevice();
     SetTargetFPS(30);
-    SetExitKey(KEY_NULL);
     srand(time(NULL));
     
     logo_font            = LoadFontEx(FONT_FILEPATH, LOGO_FONT_SIZE, NULL, 0); 
