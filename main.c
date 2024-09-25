@@ -10,12 +10,12 @@
 #define DEFAULT_SCREEN_HEIGHT (FACTOR * 9)
 #define DEFAULT_SCREEN_WIDTH  (FACTOR * 16)
 #define CELL_SIZE             50
-#define CELL_SIZE_PRESSED     45
+#define CELL_SIZE_PRESSED     (CELL_SIZE - 5)
 #define CELL_GAP              5
 
 #define LOGO_FONT_SIZE            80
 #define MENU_BUTTON_FONT_SIZE     60
-#define FIELD_FONT_SIZE           60
+#define FIELD_FONT_SIZE           40 
 #define INFO_BAR_BUTTON_FONT_SIZE 40
 #define END_GAME_BUTTON_FONT_SIZE 40
 
